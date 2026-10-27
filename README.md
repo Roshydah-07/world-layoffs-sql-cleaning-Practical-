@@ -97,6 +97,7 @@ JOIN layoffs_staging2 t2
 SET t1.industry = t2.industry
 WHERE (t1.industry IS NULL OR t1.industry = '')
   AND t2.industry IS NOT NULL
+PROCESS:[ (https://github.com/Roshydah-07/world-layoffs-sql-cleaning-Practical-/blob/main/Data%20cleaning%20sql%20practical.png)]
 
 
 
